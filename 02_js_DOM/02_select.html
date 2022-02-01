@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        h1 {
+            text-align: center;
+            border-top: 1px solid #333333;
+            border-bottom: 1px solid #333333;
+            border-color: black;
+            margin-top: 10px;
+        }
+        section {
+            max-width: 1000px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            margin: 0 auto;
+        }
+        h2 {
+            padding-left: 125px;
+        }
+        footer {
+            text-align: center;
+            border-top: 1px solid #333333;
+            border-bottom: 1px solid #333333;
+            border-color: black;
+            margin-bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Titel</h1>
+        </header>
+        <h2>Undertitel</h2>
+        <section id="sektion1">
+            
+            <article>
+                <img src="02_js_DOM/placeimg_400_800_arch.jpg" alt="Arcitechture">
+                <h3>Article 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quis cupiditate nulla quidem ea sapiente necessitatibus. Animi sunt nostrum numquam accusamus, corrupti cupiditate ad obcaecati cum odit quisquam deserunt sit, labore doloribus. Fugit, quod. Tempore inventore quod blanditiis. Ipsa nostrum asperiores voluptatibus aperiam quia maiores assumenda, cum adipisci unde obcaecati.</p>
+            </article>
+            <article>
+                <img src="02_js_DOM/placeimg_400_800_arch (1).jpg" alt="Arcitechture">
+                <h3>Article 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae consectetur adipisci ab. Tenetur eos quae voluptatum voluptatem, omnis aliquid cumque consequuntur illum eum totam consequatur non similique veniam delectus ut ipsa, vitae fugit rerum atque corporis dolorum pariatur, sapiente possimus! Minima ullam omnis quia itaque eligendi sequi facere eaque esse!</p>
+            </article>
+        </section>
+        <footer>
+            <p>This is the footer</p>
+        </footer>
+    </main>
+    
+
+    <script>
+
+
+
+
+
+
+const main = document.querySelector("main");
+console.log(main);
+const body = document.querySelector("body");
+console.log(body);
+const header = document.querySelector("header");
+console.log(header);
+const info = document.querySelector("section"); 
+console.log(info);
+const article = document.querySelector("article"); 
+console.log(article);
+const article2 = document.querySelector("article:nth-child(2)"); 
+console.log(article2);
+const h1 = document.querySelector("h1");
+console.log(h1);
+const h2 = document.querySelector("h2");
+console.log(h2);
+const h3 = document.querySelector("h3");
+console.log(h3);
+const img = document.querySelector("img");
+console.log(img);
+const p = document.querySelector("p");
+console.log(p);
+const footer = document.querySelector("footer");
+console.log(footer);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
