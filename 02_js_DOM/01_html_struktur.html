@@ -9,9 +9,7 @@
     <style>
         h1 {
             text-align: center;
-            border-top: 1px solid #333333;
-            border-bottom: 1px solid #333333;
-            border-color: black;
+            border: 1px solid black;
             margin-top: 10px;
         }
         section {
@@ -25,9 +23,7 @@
         }
         footer {
             text-align: center;
-            border-top: 1px solid #333333;
-            border-bottom: 1px solid #333333;
-            border-color: black;
+            border: 1px solid black;
             margin-bottom: 10px;
         }
         
@@ -42,12 +38,12 @@
         <section id="sektion1">
             
             <article>
-                <img src="pics/placeimg_380_600_arch.jpg" alt="Arcitechture">
+                <img src="02_js_DOM/placeimg_400_800_arch.jpg" alt="Arcitechture">
                 <h3>Article 1</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quis cupiditate nulla quidem ea sapiente necessitatibus. Animi sunt nostrum numquam accusamus, corrupti cupiditate ad obcaecati cum odit quisquam deserunt sit, labore doloribus. Fugit, quod. Tempore inventore quod blanditiis. Ipsa nostrum asperiores voluptatibus aperiam quia maiores assumenda, cum adipisci unde obcaecati.</p>
             </article>
             <article>
-                <img src="pics/placeimg_380_600_arch (1).jpg" alt="Arcitechture">
+                <img src="02_js_DOM/placeimg_400_800_arch (1).jpg" alt="Arcitechture">
                 <h3>Article 2</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae consectetur adipisci ab. Tenetur eos quae voluptatum voluptatem, omnis aliquid cumque consequuntur illum eum totam consequatur non similique veniam delectus ut ipsa, vitae fugit rerum atque corporis dolorum pariatur, sapiente possimus! Minima ullam omnis quia itaque eligendi sequi facere eaque esse!</p>
             </article>
@@ -57,34 +53,5 @@
         </footer>
     </main>
     
-
-    <script>
-
-
-            
-
-            const articlePic = document.querySelector("article img"); 
-            articlePic.src = "https://placeimg.com/380/600/any"; // Source til billedet der skal ind. Kan enten være lokalfil eller URL
-            articlePic.alt =    "Any PlaceIMG pic"; // Laver alt tekst til billedet
-        
-            const article2Pic = document.querySelector("article:nth-child(2) img"); // nth-child(2) vælger 2. child i samme parent kategori
-            article2Pic.src = "https://placeimg.com/380/600/nature"; // Source til billedet der skal ind. Kan enten være lokalfil eller URL
-            articlePic.alt =    "Any nature PlaceIMG pic"; // Laver alt tekst til billedet
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-    </script>
-
 </body>
 </html>
