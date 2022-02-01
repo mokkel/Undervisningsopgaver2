@@ -62,16 +62,8 @@
            document.addEventListener("DOMContentLoaded", start);
 
            function start() {
-            console.log("Alt er loaded OK")
-           }
-
-
-            // window.addEventListener("load", function () {
-            // // do things after the DOM loads fully
-            // console.log("Everything is loaded");
-            // });
+            console.log("Start");
             
-
             const articlePic = document.querySelector("article img"); 
             articlePic.src = "https://placeimg.com/380/600/any";
             articlePic.alt =    "Any PlaceIMG pic";
@@ -112,6 +104,17 @@
             // Laver textParagraph1(Indholdet/teksten) til child af newArticle, og grundet den er sidst i rækkefølgen, kommer den nederst og følger formateringen. 
             newArticle.appendChild(textParagraph1);
 
+
+           }
+
+
+            // window.addEventListener("load", function () {
+            // // do things after the DOM loads fully
+            // console.log("Everything is loaded");
+            // });
+            
+
+            
     </script>
 
 </body>
